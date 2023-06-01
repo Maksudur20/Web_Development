@@ -9,7 +9,22 @@
 <body><H1>problem solved
     <script>
         let name=prompt('Enter your name:')
-        let lenth=name.lenth
+
+        let lowercase=uppercase=0
+
+        let length =name.length
+
+        for(i=0;i<=length;i++){
+
+            if(name[i]>='a' && name[i]<='z'){
+                lowercase++
+            }
+
+            if(name[i]>='A' && name[i]<='Z'){
+                uppercase++
+            }
+        }
+console.log('The length is:'+length+ ' , The Uppercase is:'+uppercase+' and The lowercase is:'+lowercase)
     </script>
 </H1>
     
